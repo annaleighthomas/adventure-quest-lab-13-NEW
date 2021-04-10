@@ -6,3 +6,8 @@ export function findById(array, id) {
     }
     return null;
 }
+
+
+export function isDead(user) {
+    return user.hp <= 0;
+}

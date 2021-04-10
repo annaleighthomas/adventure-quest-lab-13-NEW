@@ -12,13 +12,40 @@
     <title>Home Page</title>
 </head>
 
-<body>
-    <main>
-        <form id="user-sign-up">
-            <button>Start Adventure Quest</button>
-        </form>
-    </main>
-    <script type="module" src="app.js"></script>
-</body>
+<form id="user-sign-up">
+    <p class="text-prompt">
+        <label for="name">Your Adventurer Name:</label>
+        <input id="name" name="name" required>
+    </p>
+    <fieldset>
+        <legend>Pick Your Race:</legend>
+        <p id="avatars">
+            <label>
+                <input type="radio" name="race" required value="wizard">
+                <img src="assets/avatars/wizard.png">
+                Wizard
+            </label>
+            <label>
+                <input type="radio" name="race" required value="elf">
+                <img src="assets/avatars/elf.png">
+                Elf
+            </label>
+            <label>
+                <input type="radio" name="race" required value="cleric">
+                <img src="assets/avatars/cleric.png">
+                Cleric
+            </label>
+            <label>
+                <input type="radio" name="race" required value="ranger">
+                <img src="assets/avatars/ranger.png">
+                Ranger
+            </label>
+        </p>
+    </fieldset>
+    <button>Start Adventure Quest</button>
+</form>
+
+<script type="module" src="./app.js"></script>
+</main>
 
 </html>
