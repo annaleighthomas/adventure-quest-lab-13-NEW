@@ -1,5 +1,7 @@
-// import functions and grab DOM elements
+const button = document.getElementById('user-sign-up');
 
-// initialize state
+button.addEventListener('submit', (event) => {
+    event.preventDefault();
 
-// set event listeners to update state and DOM
+    window.location = 'map';
+});
