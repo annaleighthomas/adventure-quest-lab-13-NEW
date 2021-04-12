@@ -53,6 +53,11 @@ header {
     box-shadow: var(--shadow);
 }
 
+#links {
+    font-size: 3rem;
+    margin: 10px;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;

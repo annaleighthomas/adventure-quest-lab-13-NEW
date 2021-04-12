@@ -4,7 +4,7 @@ import { isDead } from './utils.js';
 export function loadProfile() {
     
     const name = document.getElementById('name');
-    const avatar = document.getElementById('avatar');
+    const avatar = document.getElementById('avatars');
     const hp = document.getElementById('hp');
     const gold = document.getElementById('gold');
 
