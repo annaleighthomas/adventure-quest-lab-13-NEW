@@ -39,9 +39,6 @@ section {
 .main-page {
     background-color: #0b2c0b;
     width: 1000px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 header {
@@ -92,3 +89,15 @@ p {
     margin: var(--gutter);
 }
   
+a:visited {
+    color: white;
+}
+
+
+a:hover {
+    transform: scale(1.5);
+  }
+
+a {
+    text-decoration: none;
+}
