@@ -53,9 +53,12 @@ header {
     box-shadow: var(--shadow);
 }
 
-#links {
+a {
     font-size: 3rem;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
