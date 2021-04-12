@@ -37,6 +37,8 @@ for (let index = 0; index < quest.choices.length; index++) {
 choiceForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
+    choiceForm.classList.add('hidden');
+
     const formData = new FormData(choiceForm);
     const choiceId = formData.get('choice');
     const choice = findById(quest.choices, choiceId);
@@ -49,7 +51,7 @@ choiceForm.addEventListener('submit', (event) => {
 
     setUser(user);
 
-    choiceForm.classList.add('hidden');
+    
     result.classList.remove('hidden');
     resultDescription.textContent = choice.result;
 
