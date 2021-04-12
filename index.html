@@ -6,45 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/home.css">
     <title>Home Page</title>
 </head>
-
-<form id="user-sign-up">
-    <p class="text-prompt">
-        <label for="name">Your Adventurer Name:</label>
-        <input id="name" name="name" required>
-    </p>
-    <fieldset>
-        <legend>Pick Your Race:</legend>
-        <p id="avatars">
-            <label>
-                <input type="radio" name="race" required value="wizard">
-                <img src="assets/avatars/wizard.png">
-                Wizard
-            </label>
-            <label>
-                <input type="radio" name="race" required value="elf">
-                <img src="assets/avatars/elf.png">
-                Elf
-            </label>
-            <label>
-                <input type="radio" name="race" required value="cleric">
-                <img src="assets/avatars/cleric.png">
-                Cleric
-            </label>
-            <label>
-                <input type="radio" name="race" required value="ranger">
-                <img src="assets/avatars/ranger.png">
-                Ranger
-            </label>
+<section class="main-page">
+    <form id="user-sign-up">
+        <p class="text-prompt">
+            <label for="name">Your Adventurer Name:</label><br>
+            <input id="name" name="name" required>
         </p>
-    </fieldset>
-    <button>Start Adventure Quest</button>
-</form>
-
+        <fieldset>
+            <legend>Pick Your Race:</legend>
+            <p id="avatars">
+                <label>
+                    <input type="radio" name="race" required value="wizard">
+                    <img src="assets/avatars/wizard.png">
+                    Wizard
+                </label>
+                <label>
+                    <input type="radio" name="race" required value="elf">
+                    <img src="assets/avatars/elf.png">
+                    Elf
+                </label>
+                <label>
+                    <input type="radio" name="race" required value="cleric">
+                    <img src="assets/avatars/cleric.png">
+                    Cleric
+                </label>
+                <label>
+                    <input type="radio" name="race" required value="ranger">
+                    <img src="assets/avatars/ranger.png">
+                    Ranger
+                </label>
+            </p>
+        </fieldset>
+        <button>Start Adventure Quest</button>
+    </form>
+</section>
 <script type="module" src="./app.js"></script>
 </main>
 

@@ -2,6 +2,29 @@
     display: none;
 }
 
+#result {
+    background: #0b2c0b;
+    font-weight: bolder;
+}
+
 h1 {
-    color: #bfc7a7;
+    color: #0b2c0b;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.choice {
+    font-size: 1rems;
+    display: block;
+}
+
+button {
+    text-align: center;
+    position: absolute;
+    background-color: #c6e686;
+    border: 4px solid #446418;
+    width: 100px;
+    height: 50px;
+    font-size: 1rem;
+    color: #446418;
 }
