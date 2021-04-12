@@ -13,7 +13,7 @@ const choices = document.getElementById('choices');
 const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
 
-
+loadProfile();
 
 const searchParams = new URLSearchParams(window.location.search);
 
